@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 if(total>4){
                     if(check(cross)){
                         total=9;
+                        Toast.makeText(this,"CROSS WON ",Toast.LENGTH_SHORT).show();
                     }
                 }
 
@@ -60,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 if(total>4){
                     if(check(zero)){
                         total=9;
+                        Toast.makeText(this,"ZERO WON ",Toast.LENGTH_SHORT).show();
                     }
                 }
 
